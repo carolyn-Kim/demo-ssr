@@ -5,7 +5,6 @@ vue-ssr demo，基本ssr已实现。不是特别完善(更新中...)
 #### npm install
 
 
-
 > 开发部署
 
 #### npm run build
