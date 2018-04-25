@@ -32,7 +32,7 @@ vue-ssr demo，基本ssr已实现。不是特别完善(更新中...)
 
 
 ### 文件目录树
-
+```
 demo-ssr
 ├── README.1.md
 ├── README.md
@@ -113,3 +113,4 @@ demo-ssr
         └── router.spec.js
 
 21 directories, 56 files
+```
