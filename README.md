@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 vue-ssr demo，基本ssr已实现。不是特别完善(更新中...)
 
 ### 操作步骤
@@ -34,9 +33,6 @@ vue-ssr demo，基本ssr已实现。不是特别完善(更新中...)
 
 ### 文件目录树
 
-
-=======
->>>>>>> 18c6f8e6262d25828edd35dee8aa8f0026367395
 demo-ssr
 ├── README.1.md
 ├── README.md
