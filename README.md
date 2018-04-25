@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 vue-ssr demo，基本ssr已实现。不是特别完善(更新中...)
 
 ### 操作步骤
@@ -34,15 +35,18 @@ vue-ssr demo，基本ssr已实现。不是特别完善(更新中...)
 ### 文件目录树
 
 
+=======
+>>>>>>> 18c6f8e6262d25828edd35dee8aa8f0026367395
 demo-ssr
+├── README.1.md
 ├── README.md
 ├── config
-│   ├── webpack.conf.js     //相同配置
-│   ├── webpack.dev.js      //dev配置文件
-│   ├── webpack.prod.js     //production配置文件
-│   └── webpack.server.js   //server端配置文件
+│   ├── webpack.conf.js
+│   ├── webpack.dev.js
+│   ├── webpack.prod.js
+│   └── webpack.server.js
 ├── docs
-│   └── service-reporter    //接口测试文档，使用mochawesome
+│   └── service-reporter
 │       ├── assets
 │       │   ├── MaterialIcons-Regular.woff
 │       │   ├── MaterialIcons-Regular.woff2
@@ -58,31 +62,31 @@ demo-ssr
 │       │   └── roboto-regular-webfont.woff2
 │       ├── mochawesome.html
 │       └── mochawesome.json
-├── gulpfile.js     //server端gulp文件
-├── logs    //日志文件夹
-│   ├── pm2     //npm start 后产生的pm2日志文件
+├── gulpfile.js
+├── logs
+│   ├── pm2
 │   │   ├── error-0.log
 │   │   └── out-0.log
-│   └── yd.log  //容错日志文件
+│   └── yd.log
 ├── package-lock.json
 ├── package.json
-├── postcss.config.js   //postcss配置文件
-├── src //源文件
-│   ├── nodeuii     //node端
-│   │   ├── app.js      // 启动文件
-│   │   ├── config      
-│   │   │   └── config.js       //配置文件
-│   │   ├── controllers     
+├── postcss.config.js
+├── src
+│   ├── nodeuii
+│   │   ├── app.js
+│   │   ├── config
+│   │   │   └── config.js
+│   │   ├── controllers
 │   │   │   ├── AboutController.js
 │   │   │   ├── DataController.js
 │   │   │   └── IndexController.js
-│   │   ├── middleware 
-│   │   │   └── errorHandler.js     // 容错
+│   │   ├── middleware
+│   │   │   └── errorHandler.js
 │   │   ├── pm2.json
 │   │   └── services
 │   │       ├── AboutService.js
 │   │       └── IndexService.js
-│   └── webapp     //页面类
+│   └── webapp
 │       ├── App.vue
 │       ├── app.js
 │       ├── assets
@@ -95,10 +99,10 @@ demo-ssr
 │       │   └── Sun.vue
 │       ├── entry-client.js
 │       ├── entry-server.js
-│       ├── errors      //容错页面
+│       ├── errors
 │       │   ├── 404.html
 │       │   └── 500.html
-│       ├── index.template.html    // 模板文件
+│       ├── index.template.html
 │       ├── router
 │       │   └── index.js
 │       └── vuex
@@ -112,4 +116,4 @@ demo-ssr
     └── service
         └── router.spec.js
 
-21 directories, 55 files
+21 directories, 56 files
