@@ -1,0 +1,136 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2018-04-25T06:55:08.679Z",
+    "end": "2018-04-25T06:55:09.731Z",
+    "duration": 1052,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "de7bbcf0-678b-4d5d-9758-6e91a7bcd335",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "784af5fc-dc88-48e3-bc22-705d942f85c8",
+        "title": "Nodeuii Service 自动化测试脚本",
+        "fullFile": "/Users/jinyujiao/Desktop/yd-ssr/tests/service/router.spec.js",
+        "file": "/tests/service/router.spec.js",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [],
+        "suites": [
+          {
+            "uuid": "0b439c1d-180a-40ad-a73a-794e44e1af3f",
+            "title": "API接口测试",
+            "fullFile": "/Users/jinyujiao/Desktop/yd-ssr/tests/service/router.spec.js",
+            "file": "/tests/service/router.spec.js",
+            "beforeHooks": [],
+            "afterHooks": [],
+            "tests": [
+              {
+                "title": "获取数据接口列表",
+                "fullTitle": "Nodeuii Service 自动化测试脚本 API接口测试 获取数据接口列表",
+                "timedOut": false,
+                "duration": 1026,
+                "state": "passed",
+                "speed": "slow",
+                "pass": true,
+                "fail": false,
+                "pending": false,
+                "code": "request()\n    .get('/data/getinfos')\n    .set('Accept', 'application/json')\n    .expect('Content-Type', /json/)\n    .expect(200)\n    .end(function (err, res) {\n        if (res.body.length === 4) {\n            done();\n        } else {\n            done(err);\n        }\n    });",
+                "err": {},
+                "isRoot": false,
+                "uuid": "d82abfaf-6514-4c2d-86bf-666b367766f5",
+                "isHook": false,
+                "skipped": false
+              }
+            ],
+            "suites": [],
+            "passes": [
+              "d82abfaf-6514-4c2d-86bf-666b367766f5"
+            ],
+            "failures": [],
+            "pending": [],
+            "skipped": [],
+            "duration": 1026,
+            "root": false,
+            "rootEmpty": false,
+            "_timeout": 2000
+          },
+          {
+            "uuid": "16aed728-80c5-4709-8b74-b453caae2be6",
+            "title": "Nodeuii 容错测试",
+            "fullFile": "/Users/jinyujiao/Desktop/yd-ssr/tests/service/router.spec.js",
+            "file": "/tests/service/router.spec.js",
+            "beforeHooks": [],
+            "afterHooks": [],
+            "tests": [
+              {
+                "title": "404错误测试",
+                "fullTitle": "Nodeuii Service 自动化测试脚本 Nodeuii 容错测试 404错误测试",
+                "timedOut": false,
+                "duration": 9,
+                "state": "passed",
+                "speed": "fast",
+                "pass": true,
+                "fail": false,
+                "pending": false,
+                "code": "request()\n    .get('/notfound')\n    .expect(404, done);",
+                "err": {},
+                "isRoot": false,
+                "uuid": "cabc412e-c2dd-43f8-9f2a-846901b0758f",
+                "isHook": false,
+                "skipped": false
+              }
+            ],
+            "suites": [],
+            "passes": [
+              "cabc412e-c2dd-43f8-9f2a-846901b0758f"
+            ],
+            "failures": [],
+            "pending": [],
+            "skipped": [],
+            "duration": 9,
+            "root": false,
+            "rootEmpty": false,
+            "_timeout": 2000
+          }
+        ],
+        "passes": [],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 0,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2018
+}
